@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4E8F462D-574E-8483-7F18-8EEFE0A9A0A3" mainViewID="2CD356FD-5ABF-A7EC-2F6D-463BF592D353">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-21 08:18:48 UTC</createdTime>
+<ownerDesignName>ERD-Tes</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

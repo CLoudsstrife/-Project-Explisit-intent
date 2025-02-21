@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3E4A9A7-DAB0-0ED1-FCAD-20396DE3C35E" name="CUSTOMER">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-21 08:24:28 UTC</createdTime>
+<ownerDesignName>ERD-Tes</ownerDesignName>
+<engineerTo>
+<item key="241552AE-B139-D92B-EF54-E3A42A14F474" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="customer_id" id="ED4C7AF9-808D-202E-E811-2353BFAD2CED">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-21 08:28:37 UTC</createdTime>
+<ownerDesignName>ERD-Tes</ownerDesignName>
+<engineerTo>
+<item key="241552AE-B139-D92B-EF54-E3A42A14F474" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_id" id="0A083A47-7E5D-89C6-D692-0DDE88410867">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-21 08:28:53 UTC</createdTime>
+<ownerDesignName>ERD-Tes</ownerDesignName>
+<engineerTo>
+<item key="241552AE-B139-D92B-EF54-E3A42A14F474" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number" id="16038BEE-BA93-5DCE-AE8E-ACB878983C02">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-21 08:29:04 UTC</createdTime>
+<ownerDesignName>ERD-Tes</ownerDesignName>
+<engineerTo>
+<item key="241552AE-B139-D92B-EF54-E3A42A14F474" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hobi" id="B1E92E0E-0ACF-EA81-AB32-E306FE68AABF">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-21 08:29:23 UTC</createdTime>
+<ownerDesignName>ERD-Tes</ownerDesignName>
+<engineerTo>
+<item key="241552AE-B139-D92B-EF54-E3A42A14F474" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B061226-1765-34E3-342E-F8059645C616" name="CUSTOMER PK">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-21 08:28:39 UTC</createdTime>
+<ownerDesignName>ERD-Tes</ownerDesignName>
+<engineerTo>
+<item key="241552AE-B139-D92B-EF54-E3A42A14F474" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED4C7AF9-808D-202E-E811-2353BFAD2CED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERD-Tes" id="6B7508AC-0EA2-F770-B8F4-257E1E5D433D" version="3.5">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-21 08:18:48 UTC</createdTime>
+<ownerDesignName>ERD-Tes</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6B7508AC-0EA2-F770-B8F4-257E1E5D433D</designId>
+</OSDM_Design>
