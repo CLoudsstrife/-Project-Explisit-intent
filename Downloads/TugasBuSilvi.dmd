@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TugasBuSilvi" id="B19EF126-0E95-F44A-D5C6-29AA3068A9F7" version="3.5">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 03:56:01 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B19EF126-0E95-F44A-D5C6-29AA3068A9F7</designId>
+</OSDM_Design>

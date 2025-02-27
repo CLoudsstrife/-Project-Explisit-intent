@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="DA28CF7E-4B93-F7CF-89E8-7A06FF5F2A1E">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:13:27 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<sourcePk>5043BE9E-B2DA-738F-5DEF-8AAC494B1440</sourcePk>
+<targetPk>8FC6C632-5ABA-641C-FBD2-7D2965305381</targetPk>
+<identifying>false</identifying>
+<nameOnSource>musician can only be on one band</nameOnSource>
+<nameOnTarget>have to have more than one</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94CF85F6-6B85-3BF2-C308-1911F1445489</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>111DEB7F-FB0B-DAE8-BB78-CE774F97B9F3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

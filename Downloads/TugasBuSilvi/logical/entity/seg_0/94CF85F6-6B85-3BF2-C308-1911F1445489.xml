@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94CF85F6-6B85-3BF2-C308-1911F1445489" name="BAND">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:09:13 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="band_id" id="FB32C3CE-A6F6-8A12-3E3E-A8BC55D8CC23">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:09:25 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="band_name" id="87F5F739-8B34-6E07-09ED-BA8669FAFA80">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:11:38 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="band_song" id="8EFD81A9-2E0F-9AC9-95CC-A37B8A7677B8">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:10:44 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_hourly_rate" id="032524DE-44C1-1B78-C87A-75BD3970DE86">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:10:58 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5043BE9E-B2DA-738F-5DEF-8AAC494B1440" name="MAHASISWA PK">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:10:17 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB32C3CE-A6F6-8A12-3E3E-A8BC55D8CC23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

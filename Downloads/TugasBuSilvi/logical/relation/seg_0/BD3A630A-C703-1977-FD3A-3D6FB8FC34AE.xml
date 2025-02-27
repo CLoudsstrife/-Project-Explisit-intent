@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="BD3A630A-C703-1977-FD3A-3D6FB8FC34AE">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:51:40 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<sourcePk>F82E3769-C067-2D75-AB9E-4E1DEA1E1F9F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>a teacher can teach multiple class</nameOnSource>
+<nameOnTarget>a class can only be teach by 1 teacher</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>55539AF9-3CE7-0C57-879F-61C0EE081241</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8512290-BC5E-A642-9CCE-43FBF5362632</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

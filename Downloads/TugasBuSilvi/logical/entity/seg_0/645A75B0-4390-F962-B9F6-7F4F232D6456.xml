@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="645A75B0-4390-F962-B9F6-7F4F232D6456" name="COURSE">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:43:45 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="course_code" id="B0CD0091-B3C1-2A8F-ACE8-62B808BBC31A">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:46:10 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D688670B-2B79-0F47-5205-7DF4545D7A9B" name="COURSE PK">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:46:30 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0CD0091-B3C1-2A8F-ACE8-62B808BBC31A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

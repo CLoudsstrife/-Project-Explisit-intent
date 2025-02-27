@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8512290-BC5E-A642-9CCE-43FBF5362632" name="CLASS">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:43:52 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="class_id" id="846697CC-6BB2-7C39-5ECC-110374BF1B6C">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:46:34 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_time" id="B9186B0B-4C18-0900-473A-5D67296EF80B">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:46:47 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_location" id="856D4BBF-0615-2550-4D10-809B94737E87">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:47:44 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="teacher_id" id="0902F8E0-EB59-7246-9F92-311CD74DEFC0">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:52:21 UTC</createdTime>
+<generatorID>BD3A630A-C703-1977-FD3A-3D6FB8FC34AE</generatorID>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<referedAttribute>20D22118-B262-1EFB-C89E-63103DC02ABC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course_code" id="844642F5-E00A-EE70-746D-FFF803A90120">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:53:14 UTC</createdTime>
+<generatorID>891F8373-1FE5-078D-A0C5-52D21CA18501</generatorID>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<referedAttribute>B0CD0091-B3C1-2A8F-ACE8-62B808BBC31A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA7A5FD1-45CB-751C-8B6C-A24336C68107" name="CLASS PK">
+<createdBy>asus</createdBy>
+<createdTime>2025-02-27 04:46:46 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>846697CC-6BB2-7C39-5ECC-110374BF1B6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
