@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="5AA948E7-2199-C741-1418-88018C63A277">
+<createdBy>asus</createdBy>
+<createdTime>2025-03-06 03:40:42 UTC</createdTime>
+<ownerDesignName>TugasBuSilvi</ownerDesignName>
+<engineerTo>
+<item key="D65D13B8-3ECC-B682-3365-7E6F58436794" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>a berita acara can have many students</nameOnSource>
+<nameOnTarget>a student can have one or many berita acara</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BF231F41-1399-0F5F-266D-71B986DA97B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DBE44EFB-3604-F2DC-A69D-98A1FE0B6F1D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
